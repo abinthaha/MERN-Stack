@@ -17,6 +17,7 @@ This application uses a number of open source projects to work properly:
 Install the dependencies and devDependencies and start the server.
 
 ```sh
+$ cd ./server
 $ npm install
 $ nodemon server.js
 ```
