@@ -1,0 +1,3 @@
+[submodule "developer-book"]
+	path = developer-book
+	url = ./client/developer-book/
