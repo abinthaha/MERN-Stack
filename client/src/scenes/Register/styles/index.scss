@@ -1,0 +1,45 @@
+.main-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.list-user {
+    width: 500px;
+    border-collapse: collapse;
+
+    td,
+    th {
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #eee;
+    }
+
+    .edit-user {
+        color: #0066CC;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.register-form {
+    box-shadow: 1px 1px 5px 5px #ddd;
+    padding: 20px;
+    text-align: center;
+
+    .form-row {
+        margin: 10px 0;
+
+        label {
+            width: 30%;
+            margin-right: 10px;
+            display: inline-block;
+            text-align: right;
+        }
+    }
+}
